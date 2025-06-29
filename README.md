@@ -97,6 +97,10 @@ The heuristics are simple, and this solution will be used as a baseline. It migh
 - Use load balancer 
 - Replace uvicorn with a production ASGI server like Gunicorn
 
+### 4. **Deployment**
+- Add a CI/CD pipeline 
+- Deploy it either as a web service or a lambda function that can be triggered
+
 ### Disclaimer
 - I used AI to help generate tests 
 - I also used auto-completion and correction in my IDE 
