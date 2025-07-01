@@ -60,7 +60,12 @@ class PatientName:
 
     def to_dict(self) -> Dict[str, str]:
         """Convert to dictionary for API responses"""
-        return {"first_name": self.first_name, "family_name": self.family_name}
+        return {
+            "first_name": self.first_name,
+            "family_name": self.family_name,
+            "first_name_index": self.first_name_index,
+            "family_name_index": self.family_name_index,
+        }
 
 
 class NameExtractor:
